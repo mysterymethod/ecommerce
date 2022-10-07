@@ -1,24 +1,24 @@
 export default {
   name: 'product',
   title: 'Product',
-  type: 'documents',
-  fields:[
+  type: 'document',
+  fields: [
     {
       name: 'image',
       title: 'Image',
       type: 'array',
-      of: [{tpye: 'image'}],
+      of: [{ type: 'image' }],
       options: {
         hotspot: true,
       }
     },
-    {
+    { 
       name: 'name',
       title: 'Name',
       type: 'string',
     },
-    {
-      name: 'slug', //like url, unique string
+    { 
+      name: 'slug',
       title: 'Slug',
       type: 'slug',
       options: {
@@ -26,12 +26,12 @@ export default {
         maxLength: 90,
       }
     },
-    {
+    { 
       name: 'price',
       title: 'Price',
       type: 'number',
     },
-    {
+    { 
       name: 'details',
       title: 'Details',
       type: 'string',
