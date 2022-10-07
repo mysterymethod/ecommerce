@@ -1,9 +1,11 @@
 import React from 'react'
 
+import {HeroBanner, Product, FooterBanner} from '../components'
+
 function Home() {
   return (
     <>
-      HeroBanner
+      <HeroBanner />
 
       <div className='products-heading'>
         <h2>Best Selling Products</h2>
@@ -14,7 +16,7 @@ function Home() {
         Loop all the products
       </div>
 
-      Footer
+      <FooterBanner />
 
     </>
   )
