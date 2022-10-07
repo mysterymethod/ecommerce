@@ -11,7 +11,7 @@ import banner from './banner'
 export default createSchema({
   // We name our schema
   name: 'default',
-  // Then proceed to concatenate our document type
+  // Then proceed to concatenate our docmuent type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([product, banner]),
 })
