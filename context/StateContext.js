@@ -10,6 +10,20 @@ export const StateContext = ({ children }) => {
   const [totalQuantities, setTotalQuantities] = useState()
   const [qty, setQty] = useState(1)
 
+  
+  const incQty = () => {
+    setQty((prev) => prev + 1)
+  }
+
+  const decQty = () => {
+    setQty((prev) => {
+      if(prev - 1 < 1) {
+        return 1
+      }
+      return prev - 1
+    })
+  }
+
   return (
     <Context.Provider
       value={{
@@ -17,7 +31,9 @@ export const StateContext = ({ children }) => {
         cartItems,
         totalPrice,
         totalQuantities,
-        qty
+        qty,
+        incQty,
+        decQty
       }}
     >
       {children}
@@ -25,3 +41,5 @@ export const StateContext = ({ children }) => {
   )
 
 }
+
+export const useStateContext = () => useContext(Context) // allow us to use state as a hook.

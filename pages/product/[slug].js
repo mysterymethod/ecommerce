@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import { Product } from '../../components';
+import { useStateContext } from '../../context/StateContext'
 
 import { client, urlFor } from '../../lib/client'
 
@@ -12,6 +13,11 @@ const ProductDetails = ({ product, products }) => {
   const [index, setIndex] = useState(0)
 
   const { image, name, details, price } = product
+
+  const {decQty, incQty, qty} = useStateContext()
+
+
+
 
   return (
     <div>
@@ -52,9 +58,9 @@ const ProductDetails = ({ product, products }) => {
           <div className="quantity">
             <h3>Quantity:</h3>
             <p className="quantity-desc">
-              <span className="minus" onClick=''><AiOutlineMinus /></span>
-              {/* <span className="num">{qty}</span> */}
-              <span className="plus" onClick=''><AiOutlinePlus /></span>
+              <span className="minus" onClick={decQty}><AiOutlineMinus /></span>
+              <span className="num">{qty}</span>
+              <span className="plus" onClick={incQty}><AiOutlinePlus /></span>
             </p>
           </div>
           <div className="buttons">
