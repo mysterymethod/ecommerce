@@ -26,7 +26,7 @@ const HeroBanner = ({ heroBanner }) => {
             </button>
           </Link>
           <div className="desc">
-            <h5>Description</h5>
+            <h5>Sennheiser HD 56 Audiophile</h5>
             <p>{heroBanner.desc}</p>
           </div>
         </div>
