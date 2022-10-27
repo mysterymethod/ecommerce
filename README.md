@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Deployed Link - https://ecommerce-eight-indol.vercel.app/
 
-## Getting Started
 
-First, run the development server:
+About the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Full-Stack Ecommerce Application with Payment.
+- Fully Responsive, modern full-stack Ecommerce Application. 
+- Payment Integration with Stripe.
+- Integrated content management system with Sanity. 
+- Tech - Next.js, JavaScript, HTML, CSS, Sanity.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://user-images.githubusercontent.com/60642045/198203057-3d311918-6dfa-4db4-b043-809d7f8a0573.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![image](https://user-images.githubusercontent.com/60642045/198203074-c3c6566f-1ce4-4070-8fdd-5e9400a4010e.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![image](https://user-images.githubusercontent.com/60642045/198203097-cde05566-8116-4fa8-ae5d-2d32e4b89cbf.png)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://user-images.githubusercontent.com/60642045/198203120-31027a9a-232a-464b-a858-1e913803cf0e.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![image](https://user-images.githubusercontent.com/60642045/198203159-e03b2503-8006-4827-9b82-a9e938e0d89a.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![image](https://user-images.githubusercontent.com/60642045/198203202-f7ad9bbf-384f-4357-a749-3833a9cb3825.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+![image](https://user-images.githubusercontent.com/60642045/198203245-5590a22e-cc3e-438b-bf89-4691249689d9.png)
